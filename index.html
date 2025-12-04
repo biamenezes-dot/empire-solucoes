@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire Soluções Automotivas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="Empire Soluções Automotivas" class="logo-img">
+                <span class="logo-text">Empire</span>
+            </div>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-white">Empire</span>
+                <span class="hero-title-orange">Soluções</span>
+                <span class="hero-title-white">Automotivas</span>
+            </h1>
+            <p class="hero-description">
+                Expertise técnica e confiabilidade em cada serviço. Sua oficina de confiança para manutenção e reparo automotivo de qualidade superior.
+            </p>
+            <div class="hero-buttons">
+                <a href="booking.html" onclick="event.preventDefault(); window.location.href='booking.html'; return false;"?text=Olá!%20Gostaria%20de%20agendar%20um%20serviço%20na%20Empire%20Soluções%20Automotivas." class="btn btn-primary" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-3.055 2.364-3.905 6.75-1.904 10.692 1.913 3.692 5.786 5.81 9.77 5.81 2.331 0 4.56-.822 6.395-2.44l.009-.007 2.588 1.341c.309.161.659.134.945-.082.285-.217.38-.624.246-.925l-1.32-2.39c1.77-2.341 2.81-5.15 2.81-8.23-.001-8.59-7.418-15.52-16.635-15.52zm8.635 14.774l-2.197-1.131c.639.473 1.228 1.008 1.755 1.603.528.595.997 1.239 1.404 1.915l2.197 1.131c.309.161.659.134.945-.082.285-.217.38-.624.246-.925l-1.35-2.511z"/>
+                    </svg>
+                    Fale Conosco no WhatsApp
+                </a>
+                <a href="https://instagram.com/empiresolucoesautomotivas" class="btn btn-secondary" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                    </svg>
+                    Siga no Instagram
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <span>Deslize para explorar</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </div>
+        </div>
+        <div class="hero-background" style="background-image: url('images/hero-banner.jpg')"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-subtitle">Oferecemos uma ampla gama de serviços automotivos com qualidade, profissionalismo e garantia em todos os trabalhos realizados.</p>
+            
+            <div class="services-grid">
+                <!-- Manutenção Geral -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/maintenance-service.jpg" alt="Manutenção Geral">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 1 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Manutenção Geral</h3>
+                        <p class="service-description">Serviços completos de manutenção preventiva e corretiva para seu veículo, garantindo seu funcionamento perfeito.</p>
+                    </div>
+                </div>
+
+                <!-- Elétrica Automotiva -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/electrical-service.jpg" alt="Elétrica Automotiva">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="6 16 12 10 18 16"></polyline>
+                                <line x1="12" y1="10" x2="12" y2="3"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Elétrica Automotiva</h3>
+                        <p class="service-description">Diagnóstico e reparo de sistemas elétricos, baterias, alternadores e componentes eletrônicos com precisão.</p>
+                    </div>
+                </div>
+
+                <!-- Freios e Suspensão -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/suspension-service.jpg" alt="Freios e Suspensão">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Freios e Suspensão</h3>
+                        <p class="service-description">Inspeção, reparo e substituição de componentes de segurança com equipamento de ponta.</p>
+                    </div>
+                </div>
+
+                <!-- Diagnóstico Computadorizado -->
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="images/diagnostic-service.jpg" alt="Diagnóstico Computadorizado">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Diagnóstico Computadorizado</h3>
+                        <p class="service-description">Leitura de códigos de erro e diagnóstico avançado com equipamento de última geração.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="images/maintenance-service.jpg" alt="Sobre a Empire">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Sobre a <span class="highlight">Empire</span></h2>
+                <p class="about-text">Somos uma oficina mecânica sergipana, e temos profissionais qualificados com mais de 15 anos de experiência no mercado. Nosso compromisso é oferecer serviços de qualidade superior, utilizando técnicas modernas e equipamentos de ponta.</p>
+                
+                <h3 class="about-subtitle">Por que escolher a Empire?</h3>
+                <ul class="about-list">
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="16 12 12 8 8 12"></polyline>
+                        </svg>
+                        Empresa 100% qualificada
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="16 12 12 8 8 12"></polyline>
+                        </svg>
+                        Equipe de mecânicos certificados e qualificados
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="16 12 12 8 8 12"></polyline>
+                        </svg>
+                        Equipamentos de diagnóstico de última geração
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="16 12 12 8 8 12"></polyline>
+                        </svg>
+                        Garantia em todos os serviços realizados
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="16 12 12 8 8 12"></polyline>
+                        </svg>
+                        Atendimento personalizado e consultivo
+                    </li>
+                    <li>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="16 12 12 8 8 12"></polyline>
+                        </svg>
+                        Peças originais e de qualidade garantida
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+            <p class="section-subtitle">Confira os depoimentos de clientes satisfeitos com nossos serviços</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Excelente atendimento! A equipe é muito profissional e o serviço foi realizado com qualidade. Recomendo!"</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Carlos Silva</p>
+                        <p class="author-role">Proprietário de Veículo</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Empresa confiável. Sempre entregam no prazo e com excelência. Muito satisfeita com os resultados."</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Marina Santos</p>
+                        <p class="author-role">Proprietária de Veículo</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <p class="testimonial-text">"Serviço de diagnóstico muito preciso. Resolveu o problema do meu carro rapidamente. Voltarei com certeza!"</p>
+                    <div class="testimonial-author">
+                        <p class="author-name">Roberto Costa</p>
+                        <p class="author-role">Empresário</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <h2 class="section-title">Visite-nos</h2>
+            <p class="section-subtitle">Estamos localizados em um local estratégico e de fácil acesso</p>
+            
+            <div class="location-grid">
+                <!-- Localização -->
+                <div class="location-card">
+                    <div class="location-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="location-title">Localização</h3>
+                    <p class="location-text">Avenida Deputado Airton Teles, 616</p>
+                    <p class="location-text">Aracaju, SE 49065-270</p>
+                    <a href="https://maps.google.com/?q=Avenida+Deputado+Airton+Teles+616+Aracaju+SE" class="location-link" target="_blank">Ver no mapa →</a>
+                </div>
+
+                <!-- Horário -->
+                <div class="location-card">
+                    <div class="location-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="location-title">Horário de Funcionamento</h3>
+                    <div class="schedule">
+                        <div class="schedule-row">
+                            <span class="schedule-day">Segunda a Sexta</span>
+                            <span class="schedule-time">08:00 - 18:00</span>
+                        </div>
+                        <div class="schedule-row">
+                            <span class="schedule-day">Sábado</span>
+                            <span class="schedule-time">08:00 - 13:00</span>
+                        </div>
+                        <div class="schedule-row">
+                            <span class="schedule-day">Domingo</span>
+                            <span class="schedule-time closed">Fechado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contato -->
+                <div class="location-card">
+                    <div class="location-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="location-title">Contato Direto</h3>
+                    <p class="contact-text">Ligue ou envie uma mensagem</p>
+                    <div class="contact-info">
+                        <a href="tel:+5579999727920" class="contact-link">(79) 99972-7920</a>
+                        <a href="mailto:contato@empire.com" class="contact-link">contato@empire.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Pronto para cuidar do seu veículo?</h2>
+            <p>Entre em contato conosco agora mesmo e agende seu atendimento. Nossa equipe está pronta para oferecer a melhor solução para seu veículo!</p>
+            <div class="cta-buttons">
+                <a href="booking.html" onclick="event.preventDefault(); window.location.href='booking.html'; return false;"?text=Olá!%20Gostaria%20de%20agendar%20um%20serviço%20na%20Empire%20Soluções%20Automotivas." class="btn btn-light" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004a9.87 9.87 0 00-5.031 1.378c-3.055 2.364-3.905 6.75-1.904 10.692 1.913 3.692 5.786 5.81 9.77 5.81 2.331 0 4.56-.822 6.395-2.44l.009-.007 2.588 1.341c.309.161.659.134.945-.082.285-.217.38-.624.246-.925l-1.32-2.39c1.77-2.341 2.81-5.15 2.81-8.23-.001-8.59-7.418-15.52-16.635-15.52zm8.635 14.774l-2.197-1.131c.639.473 1.228 1.008 1.755 1.603.528.595.997 1.239 1.404 1.915l2.197 1.131c.309.161.659.134.945-.082.285-.217.38-.624.246-.925l-1.35-2.511z"/>
+                    </svg>
+                    Agende Agora
+                </a>
+                <a href="https://instagram.com/empiresolucoesautomotivas" class="btn btn-outline-light" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                    </svg>
+                    Siga no Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Empire Soluções Automotivas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
